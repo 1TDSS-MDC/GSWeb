@@ -9,6 +9,8 @@ export default function Login (){
     const [nome, setNome] = useState("");
     const [cpf, setCpf] = useState("");
     const [rg, setRg] = useState("");
+    const [tel,SetTel] = useState("");
+    const [endereco, setEndereco] = useState("");
     const [password, setPassword] = useState("");
     return(
         <Forms>
@@ -46,9 +48,27 @@ export default function Login (){
                     <FormInput
                         className={rg !== "" ? "has-val input" : "input"}
                         type="rg" 
-                        value={email} 
+                        value={rg} 
                         onChange={(e) => setRg(e.target.value)}/>
                     <span className="focus-input" data-placeholder = "RG"></span>
+                </Formdiv>
+
+                <Formdiv>
+                    <FormInput
+                        className={tel !== "" ? "has-val input" : "input"}
+                        type="tel" 
+                        value={tel} 
+                        onChange={(e) => setTel(e.target.value)}/>
+                    <span className="focus-input" data-placeholder = "Telefone"></span>
+                </Formdiv>
+
+                <Formdiv>
+                    <FormInput
+                        className={endereco !== "" ? "has-val input" : "input"}
+                        type="endereco" 
+                        value={tel} 
+                        onChange={(e) => setEndereco(e.target.value)}/>
+                    <span className="focus-input" data-placeholder = "Endereço"></span>
                 </Formdiv>
 
                 <Formdiv>
