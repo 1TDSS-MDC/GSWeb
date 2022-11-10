@@ -9,7 +9,7 @@ export default function Login (){
     const [nome, setNome] = useState("");
     const [cpf, setCpf] = useState("");
     const [rg, setRg] = useState("");
-    const [tel,SetTel] = useState("");
+    const [tel, setTel] = useState("");
     const [endereco, setEndereco] = useState("");
     const [password, setPassword] = useState("");
     return(
@@ -29,7 +29,7 @@ export default function Login (){
                 <Formdiv>
                     <FormInput
                         className={nome !== "" ? "has-val input" : "input"}
-                        type="email" 
+                        type="nome" 
                         value={nome} 
                         onChange={(e) => setNome(e.target.value)}/>
                     <span className="focus-input" data-placeholder = "Nome"></span>
@@ -86,7 +86,7 @@ export default function Login (){
 
                 <TextCenter>
                     <Txt1> Possui conta? </Txt1>
-                        <Link Link className="text2" to= "/">
+                        <Link Link className="txt2" to= "/">
                             Log in
                         </Link>
                 </TextCenter>

@@ -37,7 +37,7 @@ export default function Login (){
 
                 <TextCenter>
                     <Txt1>Não possui conta? </Txt1>
-                        <Link Link className="text2" to= "/register">
+                        <Link className="txt2" to= "/register">
                             Criar conta
                         </Link>
                 </TextCenter>
