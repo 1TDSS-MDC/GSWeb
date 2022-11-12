@@ -226,7 +226,7 @@ export const FeatureSpan = styled.span`
     font-weight: bold;
 `
 export const Galeria = styled.section`
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 50px;
     background: #333;

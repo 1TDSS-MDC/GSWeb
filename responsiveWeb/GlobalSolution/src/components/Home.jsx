@@ -19,7 +19,7 @@ export default function Home (){
         <div>
             <Navegation>
                 <NavContainer>
-                    <Logo>Nome</Logo>
+                    <Logo>BAZE</Logo>
                     <NavItens>
                         <LiNave><a href="#showcase">Inicio</a></LiNave>
                         <LiNave><a href="#features">Sobre</a></LiNave>
@@ -30,7 +30,7 @@ export default function Home (){
 
             <header id="showcase">
                 <SContainer>
-                    <H2show>Lorem ipsum dolor sit amet.</H2show>
+                    <H2show>O nosso app tem a finalidade de mostrar ao usuário a melhor rota para o trajeto .</H2show>
                     <Pshow>Focada no desenvolvimento de softwares que ajudam o meio ambiente</Pshow>
                     <a className="show" href="" class= "btn">Saiba Mais</a>
                 </SContainer>
@@ -65,18 +65,15 @@ export default function Home (){
                     <Items>
                         <Item>
                             <i class="fas fa-map-marked fa-2x color-primary"></i>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio expedita provident nam hic beatae
-                            voluptate!</p>
+                            <p>O nosso app tem a finalidade de mostrar ao usuário a melhor rota para o trajeto </p>
                         </Item>
                         <Item>
                             <i class="fas fa-users fa-2x color-primary"></i>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio expedita provident nam hic beatae
-                            voluptate!</p>
+                            <p>Ele identifica as ruas com ciclovia e as que possuem uma menor concentração de carros</p>
                         </Item>
                         <Item>
                             <i class="fas fa-glass-cheers fa-2x color-primary"></i>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio expedita provident nam hic beatae
-                            voluptate!</p>
+                            <p>Um jeito novo e sustentável para se locomover sem degradar o meio ambiente</p>
                         </Item>
                     </Items>
                 </ProdutoContainer>
